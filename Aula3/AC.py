@@ -54,8 +54,10 @@ print(lista2,'\n')
         else:
             return True
 '''
-def verifica_sequencia():
-    for i in range (len_arquivo("domino.dat")):
+
+    
+def verifica_sequencia(valor):
+    for i in range (len_arquivo(valor)):
         v = ler_arquivo("domino.dat",i)
         if not verifica_peca(v):
             print("valor invalido")
@@ -69,5 +71,5 @@ def verifica_sequencia():
         else:
             return True
 
-print(verifica_sequencia())
+print(verifica_sequencia("domino.dat"))
             
