@@ -22,10 +22,6 @@ def palindrono(s):
         meio=-meio-1
     return lista_direita
     
-    
-                
- aplica=lista.index(0)
- print(aplica)
 
 s='ovoooo'
 print(palindrono(s))
